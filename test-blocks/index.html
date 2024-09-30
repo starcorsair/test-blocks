@@ -3,7 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="index.css" rel="stylesheet" />
+    <title>test block</title>
   </head>
-  <body></body>
+  <body>
+    <!--site header-->
+    <header class="header">
+      <div class="nav">
+        <!--burger menu-->
+        <div class="nav_menu">
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+          <label for="burger-checkbox" class="burger"></label>
+          <ul class="menu-list">
+            <li><a href="#" class="menu-item">#</a></li>
+            <li></li>
+            <li><a href="#" class="menu-item">#</a></li>
+            <li></li>
+            <li><a href="#" class="menu-item">#</a></li>
+            <li></li>
+            <li><a href="#" class="menu-item">#</a></li>
+            <li></li>
+          </ul>
+        </div>
+        <!--menu logo-->
+        <a class="nav_logo" href="#"
+          ><img src="images/frame_diamond1.svg" alt="logo" class="logo_img"
+        /></a>
+      </div>
+    </header>
+    <!--site main-->
+    <main class="main">
+      <!--main first block-->
+      <div class="main_first">
+        <h1 class="title main_title">Закончились кредиты?</h1>
+        <div class="first_line"></div>
+      </div>
+      <!--main second block-->
+      <div class="main_second"></div>
+      <!--main third block-->
+      <div class="main_third">
+        <div class="main_third-flex">
+          <button class="third_button">Try now</button>
+        </div>
+        <label class="third_label">
+          <input
+            type="checkbox"
+            name="accept"
+            value="agreed"
+            class="third_input"
+          />
+          <span class="third_span"
+            >By clicking Checkbox you agree and accept our
+            <a class="span_link" href="#">Privacy Policy</a>, and
+            <a class="span_link" href="#">Terms of use</a></span
+          >
+        </label>
+      </div>
+    </main>
+  </body>
 </html>
